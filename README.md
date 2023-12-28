@@ -18,7 +18,7 @@
     <img src="./images/image-2.png">
 </p>
 
-В качестве разворачиваемого сервиса было создано приложение выводящее в браузере: "Hello Docker world!". Для этого было создано 4 файла: Dockerfile, app.py и requirements.
+В качестве разворачиваемого сервиса было создано приложение выводящее в браузере: "Hello Docker world!". Для этого было создано 3 файла: Dockerfile, app.py и requirements.
 
 Dockerfile:
 <p align="center">
