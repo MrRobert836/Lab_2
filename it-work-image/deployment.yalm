@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-first-image
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-first-image
+  template:
+    metadata:
+      labels:
+        app: my-first-image
+    spec:
+      containers:
+      - name: my-first-image
+        image: localhost:5000/it-work-image
+        ports:
+          - containerPort: 8000

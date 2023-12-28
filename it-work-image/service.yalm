@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-first-image
+spec:
+  selector:
+    app: my-first-image
+  ports:
+    - port : 8000
+      protocol: TCP
+      targetPort: 8000
+  type: LoadBalancer
